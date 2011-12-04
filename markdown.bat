@@ -1,22 +1,10 @@
-cls
+pandoc -s %1 -t plain -o %1.txt 
 
-goto b2
+pandoc -s -S --toc -c pandoc.css -A footer.html %1 -o %1-toc.html
+%1-toc.html
 
-:b1
-echo "%v%"
-pandoc -s %1 -t plain -o %1.txt
-%1.txt
-exit
+pandoc -s -S -c pandoc.css -A footer.html %1 -o %1.html
 
-:b2
-pandoc -s %1 -t html -o %1.html
-%1.html
-exit
-
-:b3
 pandoc -s %1 -t rtf -o %1.rtf 
-%1.rtf
-exit
 
-:exitf
 exit
