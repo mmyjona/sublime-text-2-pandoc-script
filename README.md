@@ -10,10 +10,10 @@ Pandoc building batch file for sublime text 2.
 
 snippet included:
 
-* Heading 1-4 		ph1(or 2 ...) <TAB>
-* Url link    		purl <TAB>
-* Img         		pimg <TAB>
-* Title       		ptitle <TAB>
-* Define      		pdefine <TAB>
-* Bullet list 		pbl <TAB>
-* Ordered list		pol <TAB>
+* Heading 1-4 		ph1(or 2 ...) TAB
+* Url link    		purl TAB
+* Img         		pimg TAB
+* Title       		ptitle TAB
+* Define      		pdefine TAB
+* Bullet list 		pbl TAB
+* Ordered list		pol TAB
