@@ -17,8 +17,11 @@ pre {
     color: #1111111;
     padding: 0.5em;
 }
-p {
-    text-indent:2em;
+figure {
+    margin:auto;
+}
+img {
+    margin:auto;
 }
 code {
     font-family: monospace;
@@ -84,4 +87,7 @@ dd p {
         font-size: 70%;
         color: gray;
         text-align: center;
+}
+ul {
+    padding-left:1em;
 }

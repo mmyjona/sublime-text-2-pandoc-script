@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+
+* ${1:Item}
+* ${2:Item}
+* ${3:Item}
+* ${4:Item}
+* ${5:Item}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pbl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.pandoc</scope>
+	<description>Bullet List</description>
+
+</snippet>
