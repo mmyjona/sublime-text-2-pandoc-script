@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Indent: Raw Block</string>
 	<key>scope</key>
-	<string>markup.raw.block.markdown</string>
+	<string>markup.raw.block.pandoc</string>
 	<key>settings</key>
 	<dict>
 		<key>decreaseIndentPattern</key>

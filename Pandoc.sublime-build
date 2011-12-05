@@ -1,7 +1,6 @@
 {
-	"cmd": ["${FileDir}pandocbat.bat","${file}"],
-	"file_regex": "^(.*?)\\(([0-9]+)\\)",
-	"working_dir": "$file_path",
-	"selector": "source.pd",
-	"shell": true
+	"cmd": ["${FileDir}pandocbat.bat","${file}","${file_path}"],
+	"file_regex": "(.*?)\\(([0-9]+?)\\)",
+	"selector": "text.html.pandoc",
+	"shell":true
 }

@@ -4,8 +4,8 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>pd</string>
 		<string>pandoc</string>
+		<string>pd</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>(?x)
@@ -119,12 +119,12 @@
 			<string>^(?=&lt;(p|div|h[1-6]|blockquote|pre|table|dl|ol|ul|script|noscript|form|fieldset|iframe|math|ins|del)\b)(?!.*?&lt;/\1&gt;)</string>
 			<key>comment</key>
 			<string>
-				pandoc formatting is disabled inside block-level tags.
+			.pandoc formatting is disabled inside block-level tags.
 			</string>
 			<key>end</key>
 			<string>(?&lt;=^&lt;/\1&gt;$\n)</string>
 			<key>name</key>
-			<string>meta.disable-pandoc</string>
+			<string>meta.disable.pandoc</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -141,7 +141,7 @@
 			<key>end</key>
 			<string>$\n?</string>
 			<key>name</key>
-			<string>meta.disable-pandoc</string>
+			<string>meta.disable.pandoc</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -290,7 +290,7 @@
 		<dict>
 			<key>comment</key>
 			<string>
-				pandoc will convert this for us. We match it so that the
+			.pandoc will convert this for us. We match it so that the
 				HTML grammar will not mark it up as invalid.
 			</string>
 			<key>match</key>
@@ -523,7 +523,7 @@
 		<dict>
 			<key>comment</key>
 			<string>
-				pandoc will convert this for us. We match it so that the
+			.pandoc will convert this for us. We match it so that the
 				HTML grammar will not mark it up as invalid.
 			</string>
 			<key>match</key>
