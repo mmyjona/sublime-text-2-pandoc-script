@@ -9,6 +9,7 @@ Pandoc building batch file for sublime text 2.
 * hit Ctrl + b to preview your doc.
 
 snippet included:
+
 * Heading 1-4 		ph1(or 2 ...) <TAB>
 * Url link    		purl <TAB>
 * Img         		pimg <TAB>
