@@ -1,6 +1,5 @@
 <snippet>
 	<content><![CDATA[
-
 #${1:Heading 1}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
